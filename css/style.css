@@ -156,7 +156,7 @@ nav .container button {
 /* sezioni grigie */
 .row {
     display: flex;
-    gap: 100px;
+    gap: 80px;
 }
 
 .column-big {
@@ -231,6 +231,8 @@ footer {
 footer #footer-top {
     margin-bottom: 30px;
     padding-top: 70px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #8EA1E1;
 }
 
 footer #footer-top .footer-links {
@@ -257,9 +259,7 @@ footer #footer-bottom {
     padding: 16px 0;
 }
 
-footer #footer-bottom>* {
-    /* padding: 4px 8px; */
-}
+
 
 footer #footer-bottom .button {
     background-color: #8EA1E1;
@@ -315,11 +315,6 @@ footer h4 {
 
 .footer-links {
     color: white;
-}
-
-.footer-divider {
-    width: 100%;
-    border-bottom: 2px solid #3C4763;
 }
 
 /* fine sezione footer */
