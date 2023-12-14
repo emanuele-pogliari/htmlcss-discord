@@ -211,32 +211,24 @@ footer {
 }
 
 
-footer .container>* {
-    border: dashed 2px white;
-    /* test */
-}
-
-
 footer #footer-top {
     margin-bottom: 30px;
+    padding-top: 70px;
 }
 
 footer #footer-top .footer-links {
-    background-color: #f08080;
-    height: 500px;
+
     width: 250px;
     /* test */
 }
 
 footer #footer-top .footer-column {
-    background-color: #20b2aa;
     /* test */
 
     flex-grow: 1;
 }
 
 footer #footer-bottom {
-    background-color: #7fffd4;
     /* test */
 
     margin-top: 16px;
@@ -249,10 +241,65 @@ footer #footer-bottom {
 }
 
 footer #footer-bottom>* {
-    background-color: #ffb6c1;
     /* test */
 
     padding: 4px 8px;
+}
+
+footer #footer-bottom .button {
+    background-color: white;
+    border: none;
+    padding: 10px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    padding-top: 10px;
+    color: white;
+    font-size: 0.9em;
+}
+
+footer h4 {
+    font-size: 1.5em;
+    color: #7289DA;
+}
+
+.flag {
+    width: 1em;
+    vertical-align: baseline;
+}
+
+.language {
+    padding: 10px 0;
+}
+
+.selected-language {
+    font-size: 0.8em;
+    line-height: 17px;
+    vertical-align: baseline;
+}
+
+.social-flex {
+    display: flex;
+    gap: 15px
+}
+
+.arrow {
+    vertical-align: baseline;
+    font-size: 12px;
+}
+
+.footer-column div {
+    font-size: 0.9em;
+    font-weight: bold;
+    color: #7289DA;
+}
+
+.footer-links {
+    color: white;
 }
 
 /* fine sezione footer */
