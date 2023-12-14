@@ -103,15 +103,41 @@ nav .container button {
 
 /* sezione hero */
 #hero {
-    background-color: #00008b;
-    /* test */
+    background-image: url('../img/jumbo.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position-y: 30%;
+    background-position-x: 50%;
+    text-align: center;
+
+    color: white;
 }
 
-#hero .container-small {
-    height: 300px;
-    /* test */
+#hero .container-small h1 {
+    font-size: 48px;
+    padding-bottom: 40px;
 }
 
+#hero .container-small p {
+    line-height: 25px;
+}
+
+#hero .container-small button {
+    background-color: white;
+    padding: 13px 20px;
+    border: none;
+    border-radius: 25px;
+    margin: 20px 8px 0;
+}
+
+#hero .container-small button:last-of-type {
+    color: white;
+    background-color: black;
+}
+
+.download-btn {
+    padding-right: 5px;
+}
 
 /* fine sezione hero */
 
