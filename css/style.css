@@ -17,20 +17,39 @@ body {
     font-family: 'Whitney', sans-serif;
 }
 
+/* elementi comuni*/
+
+h2 {
+    font-size: bold;
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+p {
+    font-size: 0.8em;
+    line-height: 18px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.padding-50 {
+    padding: 50px 0;
+}
 
 /* i container hanno una dimensione fissa,  centrati orizzontalmente */
 .container {
-
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
-
 }
 
 .container-small {
-
     max-width: 800px;
 
+    padding: 0 100px 100px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -45,9 +64,6 @@ section {
 .bg-gray {
     background-color: #F6F6F6;
 }
-
-
-
 
 /* sezione navbar */
 nav {
@@ -85,10 +101,7 @@ nav .login {
     text-align: right;
 }
 
-a {
-    text-decoration: none;
-    color: white;
-}
+
 
 nav .container button {
     background-color: white;
@@ -158,7 +171,7 @@ nav .container button {
 }
 
 .column-small div {
-    height: 400px;
+
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
