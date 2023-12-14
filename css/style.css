@@ -20,8 +20,6 @@ body {
 
 /* i container hanno una dimensione fissa,  centrati orizzontalmente */
 .container {
-    border: dashed 2px black;
-    /* test */
 
     max-width: 1000px;
     margin-left: auto;
@@ -30,8 +28,6 @@ body {
 }
 
 .container-small {
-    background-color: #ee82ee;
-    /* test */
 
     max-width: 800px;
 
@@ -55,28 +51,14 @@ section {
 
 /* sezione navbar */
 nav {
-    background-color: #add8e6;
-    /* test */
-    padding: 10px;
+    background-color: #255EE9;
+    background-size: contain;
+    padding: 15px;
 }
 
-nav .container>* {
-    border: dashed 2px black;
-    /* test */
-
-    padding: 10px;
-}
 
 nav .container {
-    background-color: #daa520;
-    /* test */
-
     display: flex;
-
-}
-
-nav .logo {
-    width: 100px;
 }
 
 
@@ -84,17 +66,35 @@ nav .nav-links {
     flex-grow: 1;
 }
 
+nav .nav-links {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 nav .nav-links ul {
     display: flex;
     justify-content: center;
     list-style-type: none;
-    gap: 12px;
+    gap: 40px;
 }
-
 
 nav .login {
     width: 100px;
     text-align: right;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+nav .container button {
+    background-color: white;
+    border: none;
+    padding: 10px 12px;
+    border-radius: 25px;
 }
 
 /* fine sezione navbar */
