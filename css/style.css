@@ -69,7 +69,7 @@ section {
 nav {
     background-color: #255EE9;
     background-size: contain;
-    padding: 15px;
+    padding: 20px;
 }
 
 
@@ -80,14 +80,11 @@ nav .container {
 
 nav .nav-links {
     flex-grow: 1;
-}
-
-nav .nav-links {
-    flex-grow: 1;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 
 nav .nav-links ul {
     display: flex;
@@ -128,6 +125,7 @@ nav .container button {
 
 #hero .container-small h1 {
     font-size: 48px;
+    padding-top: 50px;
     padding-bottom: 40px;
 }
 
@@ -158,14 +156,20 @@ nav .container button {
 /* sezioni grigie */
 .row {
     display: flex;
+    gap: 100px;
 }
 
 .column-big {
     flex-grow: 1;
 }
 
+.column-big img {
+    width: 100%;
+}
+
 .column-small {
     padding: 0 50px;
+    padding-top: 20px;
     vertical-align: middle;
     width: 400px;
 }
