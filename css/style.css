@@ -43,7 +43,7 @@ section {
 
 
 .bg-gray {
-    background-color: #d3d3d3;
+    background-color: #F6F6F6;
 }
 
 
@@ -310,3 +310,17 @@ footer h4 {
 }
 
 /* fine sezione footer */
+
+
+/* Bonus */
+.wave {
+    display: block;
+    height: 100px;
+    width: 100%;
+    filter: invert(100%) sepia(18%) saturate(23%) hue-rotate(42deg) brightness(111%) contrast(93%);
+
+}
+
+.wave-reverse {
+    transform: rotate(180deg);
+}
