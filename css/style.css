@@ -148,31 +148,29 @@ nav .container button {
 }
 
 .column-big {
-    background-color: #1e90ff;
-    height: 400px;
-    border: dashed 2px black;
-    /* test */
-
-    /* width: 60%; */
     flex-grow: 1;
 }
 
 .column-small {
-    background-color: #ffc0cb;
-    height: 400px;
-    border: dashed 2px black;
-    /* test */
 
-    /* width: 40%; */
+    padding: 0 50px;
+    vertical-align: middle;
     width: 400px;
 }
 
+.column-small div {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
 
 .big-content {
     background-color: #228b22;
     height: 600px;
     /* test */
 }
+
 
 /* fine sezioni grigie */
 
