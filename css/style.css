@@ -176,6 +176,28 @@ nav .container button {
     padding: 0 100px
 }
 
+h3 {
+    font-size: 1.3em;
+    padding-top: 30px;
+    background-image: url(../img/stars.svg);
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    background-size: 40%;
+}
+
+.bg-gray .container button {
+    color: white;
+    background-color: #7289DA;
+    padding: 13px 20px;
+    border: none;
+    border-radius: 25px;
+    margin: 20px 8px 0;
+}
+
+.bg-gray .container .big-content-link {
+    text-align: center;
+}
+
 /* fine sezioni grigie */
 
 
