@@ -258,9 +258,7 @@ footer #footer-bottom {
 }
 
 footer #footer-bottom>* {
-    /* test */
-
-    padding: 4px 8px;
+    /* padding: 4px 8px; */
 }
 
 footer #footer-bottom .button {
@@ -298,13 +296,11 @@ footer h4 {
 }
 
 .language {
-    padding: 10px 0;
+    padding: 20px 0;
 }
 
 .selected-language {
     font-size: 0.8em;
-    line-height: 17px;
-    vertical-align: baseline;
 }
 
 .social-flex {
