@@ -152,7 +152,6 @@ nav .container button {
 }
 
 .column-small {
-
     padding: 0 50px;
     vertical-align: middle;
     width: 400px;
@@ -166,11 +165,16 @@ nav .container button {
 }
 
 .big-content {
-    background-color: #228b22;
-    height: 600px;
-    /* test */
+    text-align: center;
 }
 
+.big-content h2 {
+    padding-bottom: 20px;
+}
+
+.big-content div:first-of-type {
+    padding: 0 100px
+}
 
 /* fine sezioni grigie */
 
